@@ -1,0 +1,2 @@
+<input (keydown)="buscar($event)" [(ngModel)]="textoBusqueda" placeholder="Usuario a buscar">
+<guw-usuario [busqueda]="'textoBusqueda'" *ngIf="buscando"></guw-usuario>
